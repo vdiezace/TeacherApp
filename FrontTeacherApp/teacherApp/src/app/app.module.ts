@@ -10,6 +10,7 @@ import { StudentHeaderComponent } from './components/student-header/student-head
 import { TeacherHeaderComponent } from './components/teacher-header/teacher-header.component';
 import { AdminHeaderComponent } from './components/admin-header/admin-header.component';
 import { HomeComponent } from './components/home/home.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HomeComponent } from './components/home/home.component';
     StudentHeaderComponent,
     TeacherHeaderComponent,
     AdminHeaderComponent,
-    HomeComponent
+    HomeComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
