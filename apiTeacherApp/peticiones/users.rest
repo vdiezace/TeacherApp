@@ -1,3 +1,4 @@
 @host=http://localhost:3000
 
-GET {{host}}/users/all
+#### GET ALL USERS
+GET {{host}}/users
