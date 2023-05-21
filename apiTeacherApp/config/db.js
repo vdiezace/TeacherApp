@@ -7,3 +7,5 @@ const pool = mysql2.createPool({
   port: process.env.DB_PORT,
   database: process.env.DB_NAME,
 });
+
+global.db = pool.promise();
