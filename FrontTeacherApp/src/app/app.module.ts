@@ -11,6 +11,10 @@ import { TeacherHeaderComponent } from './components/teacher-header/teacher-head
 import { AdminHeaderComponent } from './components/admin-header/admin-header.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
+import { LoginComponent } from './components/login/login.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { HowitworksComponent } from './components/howitworks/howitworks.component';
+import { LoginFormComponent } from './components/login-form/login-form.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
     TeacherHeaderComponent,
     AdminHeaderComponent,
     HomeComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    LoginComponent,
+    ContactComponent,
+    HowitworksComponent,
+    LoginFormComponent
   ],
   imports: [
     BrowserModule,
